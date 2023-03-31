@@ -5,7 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "sh scripts/start.sh",
+    "push": "sh scripts/push.sh",
+    "envenc": "sh .envenc/enc.sh",
+    "envdec": "sh .envenc/dec.sh"
   },
   "author": "dkmca-gh",
   "license": "ISC",
